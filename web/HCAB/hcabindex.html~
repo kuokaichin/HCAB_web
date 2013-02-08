@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="hcabstyles.css" />
+    </head>
+    
+    <body>
+   
+        <div id="container" style="width:1000px">
+
+            <div id="header">
+                <img src="me.jpeg"alt="me" width="500" height="300"/>
+            </div>
+
+            <div id="content" style="background-color:#FFD700;height:1000px;width:400px;float:left;">
+                The Harvard College ....asdfgkjdg
+            </div>
+
+            <div id="menu" style="background-color:#EEE5DE;height:1000px;width:400px;float:left;">
+                <b>Menu</b>
+                <br /><a href="">About HCAB</a>
+                <br /><a href="">Volunteer</a>
+                <br />Donate
+                <br />Member Login
+            </div>
+
+            <div id="footer" style="background-color:#330000;clear:both;text-align:center;">
+            Copyright © 2011 W3Schools.com
+            </div>
+
+        </div>
+    <body>
+</html>

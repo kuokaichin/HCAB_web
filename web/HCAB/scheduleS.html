@@ -1,0 +1,134 @@
+<?
+
+    // require common code
+    require_once("../../includes/common.php");
+	$i = $_SESSION["id"];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Alzheimer's Buddies at Harvard College</title>
+        <link rel="stylesheet" href="../nav/css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/hcabstyles.css" >
+                <!--[if IE]>
+                        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <![endif]-->
+
+    </head>
+        <body class="no-js">
+            <header>
+                <img src="images/websiteheader.png"alt="Top">
+            </header>
+
+                <nav id="topNav">
+                        <ul>
+                                <li><a href="../index.html" title="Home"><c>Home</c></a></li>
+                                <li><a href="../aboutus.html" title="About us"><w>About Us</w><ul>
+                                                <li><a href="../aboutus.html" title="About Us"><cs>Overview</cs></a></li>
+                                                <li><a href="../history.html" title="History"><ws>History</ws></a></li>
+                                                <li><a href="../leader.html" title="Our Leaders"><cs>Our 
+Leaders</cs></a></li>
+                                                <li class="last"><a href="../buddystories.html" title="Buddy 
+Stories"><ws>Buddy
+Stories</ws></a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="../construction.html" title="Media"><c>Media</c></a></li>
+                                <li><a href="../joinschedule.html" title="Join Us"><w>Join Us</w></a></li>
+                                <li><a href="../contact.html" title="Contact Us"><c>Contact Us</c></a></li>
+                                <li><a href="../donate.html" title="Donate"><w>Donate</w></a></li>
+                                <li><a href="logout.html" title="Login"><c>Leave</c></a></li>
+                        </ul>
+                </nav>
+                <script src="../nav/js/jquery.js"></script>
+                <script src="../nav/js/modernizr.js"></script>
+
+
+                <br />
+                <div class="tab">
+                        <div class="row">
+                                <?php if($i == 36 || $i == 40 || $i == 7 || $i == 3) { ?>
+                                <div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>
+                                <?php } else { ?>
+                                <div class="col1"><a class="center" href="hcabindexlogin.php">HOME</a> </div>
+                                <?php }?>
+                                <div class="col1"><a class="center" href="journal.php">Journals</a> </div>
+                                <?php if($i == 36 || $i == 40 || $i == 7 || $i == 3) { ?>
+                                <div class="col1"><a class="center" href="volunteers.php">Volunteers</a></div>
+                                <?php } ?>
+                                <div class="col1"><a class="center" href="posting.php">Postings</a> </div>
+                                <div class="col2"><a class="center" href="scheduleS.html">Scheduling</a> </div>
+
+                        </div>
+		</div>
+
+	<div class="schedule">
+	<br />
+	This semester we have four fantastic opportunities to meet with professionals in geriatric care and Alzheimer’s 
+	disease. Because all of our guests are taking time out from their day to meet with us, we need a strong showing at 
+	each event. We hope you will enjoy these chances to ask questions, get answers, and hear more about what affects our buddies. 
+	<br /> <br />
+	Please check all the dates that you will be attending. The first and last events are mandatory and you may choose 
+	one of the middle two. You are more than welcome to attend both of these though!                       
+	<br /> <br /> <br /> 
+	<large>Dr. Nancy Donovan </large>about our experiences with our buddies. Our cases and challenges will described 
+	and discussed with Dr. Donovan providing insight into the underlying psychological issues our buddies may have. She is interested in and has studied apathy and depression and this 
+	will be a great opportunity for all of us to talk, not just listen. 
+	<br /> 
+	</div>
+
+<form action="scheduleS2.php" method="POST">
+
+		<div class="scheduletime"><input type="checkbox" name="0" value="yes" checked> Wednesday October 17, 7:15 PM 
+		<br />Adams Upper Common Room (MANDATORY)</div><br /><br />
+
+	<div class="schedule">
+	<large>Dr. Tony Weiner </large>is a geriatric psychiatrist at Mass General Hospital and after a brief chat over 
+	dinner he will present his talk, “Non-pharmacological Interventions to Reduce Agitation in Nursing Home Settings.”
+	<br />
+	</div> 
+
+
+		<div class="scheduletime"><input type="checkbox" name="1" value="yes"> Monday October 29, 6 PM<br /> 
+		Lowell Junior Common Room</div><br /><br />
+
+
+	<div class="schedule">
+	<large>Mrs. Debra Katt-Lloyd </large>is the director of the Alzheimer’s Organization for New England. She is 
+	coming for dinner to talk about patient anecdotes, family needs, and activism to increase Alzheimer’s Disease 
+	awareness.
+	<br />
+	</div>
+
+		<div class="scheduletime"><input type="checkbox" name="2" value="yes"> Tuesday November 13, 6 PM<br />
+		Lowell Junior Common Room</div><br /><br />
+
+	<div class="schedule">
+	<large>Mrs. Robin Stewart </large>is the Hebrew Senior Life, Life Enhancement Coordinator. She will providing us 
+	with feedback from families and some news about our buddies changes. 
+	<br />
+	</div>
+
+		<div class="scheduletime"><input type="checkbox" name="3" value="yes" checked> Sunday December 2, 1 PM <br /> 
+		HSL(MANDATORY)</div><br /><br />
+
+<div class="scheduletime"><input type="submit" value="Done"></div><br /><br />
+</form>
+
+                <div class="footer">
+                Designed by a Rennix?
+                        <div class="right">
+                        &#169;
+                        Harvard College Alzheimer's Buddies
+                        </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                        
+    </body>
+
+</html>
+
+

@@ -1,0 +1,598 @@
+.journalList
+{
+	margin-left:15%;
+	font-size: 14px;
+	font-family: "Georgia", Times New Roman, serif;	
+	color:#333333;
+}
+
+purple
+	{
+		color:#9900CC;
+	}
+a.purple:link {text-decoration:none;}
+a.purple:visited {text-decoration:none;}
+a.purple:hover {text-decoration:none;}
+a.purple:active{text-decoration:none;}
+
+
+red
+   {    
+        color: #FF0000;
+   }
+                
+a.red:link {text-decoration:none;}
+a.red:visited {text-decoration:none;}
+a.red:hover {text-decoration:none;}
+a.red:active{text-decoration:none;}
+
+
+
+green
+{
+        color:#33CC33;
+}
+
+a.green:link {text-decoration:none;}
+a.green:visited {text-decoration:none;}
+a.green:hover {text-decoration:none;}
+a.green:active{text-decoration:none;}
+
+yellow
+{
+        color:#CCCC00;
+}
+
+a.yellow:link {text-decoration:none;}
+a.yellow:visited {text-decoration:none;}
+a.yellow:hover {text-decoration:none;}
+a.yellow:active{text-decoration:none;}
+
+black
+{
+        color:#000000;
+}
+
+a.black:link {text-decoration:none;}
+a.black:visited {text-decoration:none;}
+a.black:hover {text-decoration:none;}
+a.black:active{text-decoration:none;}
+
+blue
+{
+        color:#0000FF;
+}
+                                   
+a.blue:link {text-decoration:none;}
+a.blue:visited {text-decoration:none;}
+a.blue:hover {text-decoration:none;}
+a.blue:active{text-decoration:none;}
+
+.journalList2
+	{
+		font-size: 12px;
+	        color: #92A8E4;
+
+	}
+
+ 
+.schedule
+        {
+        margin-left: 100px;
+        font-size: 19px;
+        font-family:"Georgia", Times New Roman, serif;
+        font-weight:100;
+	line-height: 140%;
+        width: 720px;
+        color:#333333;
+        }
+
+.scheduletime
+	{
+	margin-left: 230px;
+	font-size: 22px;
+	font-family:"Gill Sans", Gill Sans MT, sans-serif;
+	width: 400px;
+	}
+
+large
+	{
+        font-size: 24px;
+        font-family:"Georgia", Times New Roman, serif;
+	}
+
+
+
+textarea
+    {
+        margin-left:25%;
+        font-size:17px;
+    }
+
+marg
+    {
+    	margin-left:25%;
+	}
+
+.jform
+    {
+	margin-left:230px;
+        font-family:"Georgia", Times New Roman, serif;
+        font-size: 22px;
+	width: 600px;
+    }
+
+input
+    {
+        font-size:20px;
+    }
+
+
+
+
+header
+    { 
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+header2
+	{	
+		margin-left: 5%;
+	}
+
+img.size{height:90%; width:90%; min-height:153px; min-width:1020px;}
+
+menu
+    {
+        font-family: "Gill Sans", Gill Sans MT, sans-serif;
+        background-color:#904A28;
+        font-size: 22px;
+        margin-left:5%;
+        margin-top:1px;
+        width:770px;
+        padding-top:9px;
+        padding-bottom:9px;    
+    }
+    
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active{text-decoration:none;}
+
+/*Alternating text color in menu- white*/       
+w
+    {
+        color:#FFFFFF;
+        padding-left:23px;
+        padding-right:23px;
+    }
+
+wu
+	{	
+		color:#FFFFFF;
+		padding-left:23px;
+		padding-right:23px;
+		text-decoration:underline;
+	}
+
+/*Alternating text color in submenu-white*/
+ws
+   {
+	color:#FFFFFF;
+	padding:5px 15px;
+   }	
+	
+/*Alternating text color in menu-cream*/
+c
+    {
+        color:#FEF0DB;
+        padding-left:23px;
+        padding-right:23px;
+    }
+
+/*Alternating text color in submenu-cream*/
+cs
+    {
+	color:#FEF0DB;
+	padding:5px 15px;
+    }
+
+/*Obviously bold*/
+bold
+    {
+	font-size: 24 px;
+	font-weight: 700;
+    }
+
+
+/*blue highlight color*/
+highlight
+   {
+        color: #3399CC;
+   }
+
+a.highlight:link {text-decoration:none;}
+a.highlight:visited {text-decoration:none;}
+a.highlight:hover {text-decoration:none;}
+a.highlight:active{text-decoration:none;}
+
+.rtitle
+	{
+ 		margin-left: 13%;
+                width:500px;
+                font-weight:500;
+                font-size:40px;
+                font-family:"Gill Sans",Gill Sans MT, sans-serif;
+		z-index:1
+		position:absolute;
+		line-height:150%;
+	}
+
+
+img.floatRight
+	{
+	width: 143px;
+	height: 135px;	
+	float:right;
+	z-index:-1;
+	}
+
+/*Using this too*/
+.image
+	{
+		position:relative;
+		float:left;
+		margin: -25px 0px 0px 3%;
+		z-index:-2;
+	}
+
+/*Using this on the volunteer page*/
+.image .text
+	{
+		position:absolute;
+		top: 80px;
+		left: 90px;
+		width: 700px;		
+		font-weight:100;
+		font-size: 22px;
+		font-family:"Georgia", Times New Roman, serif;
+		line-height:150%;
+		color:#333333;
+	}
+
+/*Using this.*/
+.image .title
+	{
+		position: absolute;
+		top:55px;
+		left:90px;
+		width:700px;
+		font-weight:500;
+		font-size:40px;
+		font-family:"Gill Sans",Gill Sans MT, sans-serif;
+		line-height:150%;
+	}
+
+/*Use on leader page.*/
+sm
+	{
+		font-size:24px;
+	}
+	
+/* Use this. */
+.rim
+{
+	position:relative;
+	float:left;
+	margin: -25px 0px 0px 3%;
+	padding-left:100px;
+	z-index:-2;
+	font-size:40px;
+	line-height:150%;
+	font-family:"Gill Sans",Gill Sans MT, sans-serif;
+}
+
+/*And this*/
+.rim .rtit
+	{
+		z-index:-1;
+		Position: absolute;
+		/*more negative is up*/
+		top: -50px;
+		/*larger number is more right*/
+		left: 370px;
+		width:700px;
+                font-weight:800;
+                font-size:40px;
+                font-family:"Gill Sans",Gill Sans MT, sans-serif;
+                line-height:150%;
+	}
+
+/*Using this for bottom of about us page*/
+.rim .rtitl
+	{
+	        z-index:-1;
+                Position: absolute;
+                /*more negative is up*/
+                top: -50px;
+                /*larger number is more right*/
+                left: 552px;
+                width:700px;
+                font-weight:500;
+                font-size:40px;
+                font-family:"Gill Sans",Gill Sans MT, sans-serif;
+                line-height:150%;  
+	}
+
+/*middle of history page*/
+.rim .rtits
+	{	
+                z-index:-1;
+                Position: absolute;
+                /*more negative is up*/
+                top: -50px;
+                /*larger number is more right*/
+                left: 200px;
+                width:700px;
+                font-weight:500;
+                font-size:40px;
+                font-family:"Gill Sans",Gill Sans MT, sans-serif;
+                line-height:150%;
+
+	}
+
+/*Using this*/
+.aindent
+	{
+	z-index:2;
+	margin-left:17%;
+	margin-bottom: 60px;
+        font-size: 22px;
+        font-family:"Georgia", Times New Roman, serif;
+        font-weight:100;
+        line-height: 150%;
+        width: 700px;   
+        color:#333333;
+	}
+/*to be used for words above left image title*/
+.alindent
+	{
+        z-index:2;
+        margin-left:17%;
+        margin-bottom: 0px;
+        font-size: 22px;
+        font-family:"Georgia", Times New Roman, serif;
+        font-weight:100;
+        line-height: 150%;
+        width: 700px;
+        color:#333333;
+
+	}
+/*Hopefully works to diminish bottom margin with previous doing the work */
+.alindent .rfl
+ {   
+        height:150px;
+        width:150px;
+        float:right;
+        }
+
+
+/*Using this.*/
+.atindent
+	{
+        margin-left:17%;
+	margin-bottom:10px;
+        font-size: 25px;
+        font-family:"Gill Sans", Gill Sans MT, sans-serif;
+        font-weight:100;
+        line-height: 50%;
+        width: 700px;
+        color:#333333;
+
+	
+	}
+/*Using this*/
+.aindent .rfl
+	{
+	height:150px;
+	width:150px;
+	float:right;
+	}
+
+/*This too.*/
+.aindent .lfl
+	{
+	height:150px;
+	width:150px;
+	float:left;
+	}	
+
+
+
+
+/*words in this section specific area*/
+.dicta
+        {
+        margin-left: 13%;
+        font-size: 22px;
+        font-family:"Georgia", Times New Roman, serif;
+        font-weight: 100;
+        line-height: 150%;
+        width: 700px;
+	color:#333333;
+        }
+
+/*using these for login nav*/
+a.center:link{color:#3399CC;}
+a.center:visited{color:#3399CC;}
+a.center:active{color:#3399CC;}
+a.center:hover{color:#3399CC;}
+
+/*Using these for normal links of blue*/
+a.reg:link{color:#6699CC; text-decoration:underline;}
+a.reg:visited{color:#6699CC; text-decoration:underline;}
+a.reg:active{color:#6699CC; text-decoration:underline;}
+a.reg:hover{color:#6699CC; text-decoration:underline;}
+
+/*Use for normal gerogia text that is mostly centered*/
+.norm
+	{
+		width: 600px;
+		margin-left: 300px;
+		font-size: 22px;
+		font-family:"Georgia", Times New Roman, serif;
+		color: #333333;
+	}
+
+.jnorm
+	{
+		width: 500px;
+		margin-left: 230px;
+		font-size: 20px;
+	        font-family:"Gill Sans", Gill Sans MT, sans-serif;
+		color:#333333;
+	}
+
+.jtitle
+	{
+		font-size: 30px;
+		font-family:"Georgia", Times New Roman, serif;
+		color: #333333;
+		position: relative;
+		align:right;
+		margin-left: 400px;
+		overflow:hidden;
+	}
+
+.jwords
+	{
+		font-size: 22px;
+		font-family:"Georgia", Times New Roman, serif;
+		color: #92A8E4;
+		position: relative;
+		margin-left: 500px;
+	
+	}
+
+
+.tab
+        {
+		margin-left: 220px;
+		width: 600px;
+		overflow:hidden;        	      
+        }
+
+.row
+	{
+		display:block;
+	}
+
+.col1
+	{
+		padding: 1px 5px 1px 5px;
+		display:inline-block;
+		font-size: 30px;
+		font-family:"Gill Sans", Gill Sans MT, sans-serif;
+		border-right: solid black;
+	}
+
+.col2
+	{
+		padding: 1px 5px 1px 5px;
+		font-size: 30px;
+                font-family:"Gill Sans", Gill Sans MT, sans-serif;
+		display:inline-block;
+	}
+
+.colu1
+        {
+                padding: 1px 5px 1px 5px;
+                display:inline-block;
+                font-size: 30px;
+                font-family:"Gill Sans", Gill Sans MT, sans-serif;
+                border-right: solid black;
+     		text-decoration:underline;
+	}
+
+.colu2
+        {
+                padding: 1px 5px 1px 5px;
+                font-size: 30px;
+                font-family:"Gill Sans", Gill Sans MT, sans-serif;
+                display:inline-block;
+		text-decoration:underline;
+        }
+
+
+
+li.list
+	{
+	font-size:20px;
+	}
+br.list
+	{
+	line-height: 70%;
+	}
+
+
+
+.footer
+	{
+                background-color:#FEF0DB;
+                width:1359px;
+                margin-left:5%;
+                font-size: 19px;
+                font-family:"Gill Sans",Gill Sans MT, sans-serif;
+		float:left;
+		padding: 6px 3px 2px 3px;
+                color:#663300;
+		width:90%; 
+		min-width:1020px;
+         
+        }
+
+.footer .right
+        {
+                float:right;
+        }
+
+
+
+
+
+
+
+
+table
+    {
+        margin-left:25%;
+    }
+
+td
+    {
+        font-family:"Georgia", Times New Roman, serif;
+        font-size: 25px;
+
+    }
+
+register
+    {
+        font-family:"Georgia", Times New Roman, serif;
+        font-size: 20px;
+        margin-left:30%;
+    }
+
+
+/*in case something fucks up this was header*/
+backup
+{height:161px;
+width:811px;
+margin-left:auto;
+margin-right:auto;
+background-color:#FEF0DB;/*cream*/
+font-family:"Georgia", Times New Roman, serif;
+font-size:72px;
+line-height:1px;
+background-color:#809BCF;/*Blue*/
+}

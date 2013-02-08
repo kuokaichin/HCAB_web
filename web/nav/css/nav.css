@@ -1,0 +1,107 @@
+/* JS disabled styles */  
+.no-js nav li:hover ul { display:block; } 
+
+/* base nav styles */
+
+nav 
+    { 
+    display:block; 
+    margin-top:0px;
+    margin-left: 5%;
+    position:relative; 
+    background-color:#904A28; 
+    font-size:24px;
+    width:1340px;
+    font-family:"Gill Sans",Gill Sans MT, sans-serif;
+        max-width:90%; min-width:1200px;	
+    }
+
+nav ul 
+    { 
+    padding:0;
+    margin: 0;
+	
+    }
+
+nav li
+    { 
+    position:relative;
+    float:left; 
+    list-style-type:none; 
+	margin-right: 4.5%;
+    }
+
+nav ul:after 
+    { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+    }
+/*text color was in here*/
+
+nav li a 
+    { 
+    display:block; 
+    text-decoration:none;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+	font-size:90%;
+    }
+
+nav li a:focus 
+    { 
+    outline:none; 
+    text-decoration:underline; 
+    }
+
+nav li:first-child a 
+    { 
+    border-left:none; 
+    }
+
+nav li.last a 
+    { 
+    border-right:none; 
+	margin-right:0px;
+    }
+
+nav a span 
+    { 
+    display:block; 
+    float:right; 
+     
+    }
+
+nav ul ul 
+    { 
+    display:none; 
+    width:110%; 
+    position:absolute; 
+    left:0; 
+   background:#904A28; 
+        
+    }
+
+nav ul ul li 
+    { 
+    float:none; 
+    }
+
+nav ul ul a 
+    { 
+    border-left:none; 
+    border-right:none; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size:20px;
+    }	
+
+nav ul ul a:hover 
+    { 
+    background-color:#92A8E4; 
+    }
+
+
+    

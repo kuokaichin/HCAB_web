@@ -1,0 +1,32 @@
+
+/* JS disabled styles */
+.no-js nav li:hover ul { display:block; }
+
+/* base nav styles */
+nav 
+	{
+	display:block;
+	margin-top:1px;
+	margin-left:5%;
+	width:770px; 
+	background-color:#904A28; 
+	padding-top:9px;
+	padding-bottom:9px;
+	position:relative; 
+	font-size:22px;  
+	font-family:"Gill Sans", Gill Sans MT, sans-serif; 
+	}	
+
+nav ul {
+	 padding-top:9px;
+	 padding-bottom:9px;
+	}
+
+nav li {
+	position:relative;	
+	float:left;
+	list-style-type:none;
+	}
+
+nav ul:after {
+		

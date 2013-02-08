@@ -1,0 +1,16 @@
+IF RETURNING
+login.html-> login2.php
+
+
+IF FIRST TIME
+register.html->register2.php
+
+IF NOT A VOLUNTEER or DIRECTOR
+PersonnelA.html->PersonnelA2.php
+
+IF VOLUNTEER or DIRECTOR 
+PersonnelB.html->PersonnelB2.php
+
+
+POST-LOGIN HOMEPAGE
+hcabindexlogin.html

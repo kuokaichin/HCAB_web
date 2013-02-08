@@ -1,0 +1,30 @@
+  <br />
+
+                <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=3");?>
+                                        <? $r = mysql_fetch_array($pt)?>
+        
+                <div class="journalList">
+                        <?while ($row = mysql_fetch_array($result)):?>
+                                <?= $row["Lname"]?> , <?= $row["Fname"]?>
+                        
+                                <? $current = $row["id"]; ?>
+                                <? $posts = $row["jposts"]; ?>
+                                <br />
+                                Number of Journal Posts: <?= $posts?>
+                                        <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author 
+ID`=$current")$
+                                        <?while ($r = mysql_fetch_array($pt)):?>
+                                                 <?= $r["head"]?>
+
+                                                 <? $dt = date("l, F j, Y, g:i A", strtotime($r["date"]));?>
+                            
+                                        <? endwhile ?>
+                                
+                                        <br />
+                                        Last Entry:
+                                        <?= $dt?>
+                                                
+
+                        <? endwhile ?>
+                </div>
+
