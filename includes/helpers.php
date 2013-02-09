@@ -60,7 +60,7 @@
         session_destroy();
     }
 
-	    /**
+	     /**
      * Executes SQL statement, possibly with parameters, returning
      * an array of all rows in result set or false on (non-fatal) error.
      */
@@ -97,7 +97,8 @@
         if ($statement === false)
         {
             // trigger (big, orange) error
-            trigger_error($handle->errorInfo()[2], E_USER_ERROR);
+            $errorInfo = $handle->errorInfo();
+            trigger_error($errorInfo[2], E_USER_ERROR);
             exit;
         }
 
@@ -114,6 +115,7 @@
             return false;
         }
     }
+
 
 
     /**
@@ -157,8 +159,8 @@
 	
     /**
      * Renders template, passing in values.
-     */	 
-	function render($template, $values = [])
+     */
+    function render($template, $values = array())
     {
         // if template exists, render it
         if (file_exists("../templates/$template"))

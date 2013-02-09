@@ -14,7 +14,7 @@
 
 
     // require authentication for most pages
-    if (!preg_match("{/(:?login|logout|register)\d*\.php$}", $_SERVER["PHP_SELF"]))
+    if (!preg_match("{/(:?login|logout|register|test)\d*\.php$}", $_SERVER["PHP_SELF"]))
     {
         if (!isset($_SESSION["id"]))
             redirect("http://www.hcs.harvard.edu/hcalzbuddies/HCAB/login.html");
