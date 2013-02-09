@@ -57,11 +57,13 @@ location.href = url + '?curID=' +  str
 		<br />
                 <div class="tab">
                         <div class="row">
-                                <div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>
-                                <div class="col1"><a class="center" href="journal.php">Journals</a> </div>
-                                <div class="colu1"><a class="center" href="volunteers.php">Volunteers</a></div>
-                                <div class="col1"><a class="center" href="posting.php">Postings</a> </div>
-                                <div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
+							<div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>
+							<div class="col1"><a class="center" href="journal.php">Journals</a> </div>
+							<div class="col1"><a class="center" href="journal_old.php">Old Journals</a></div>
+							<div class="col1"><a class="center" href="jreview.php">Journal Review</a></div>
+							<div class="colu1"><a class="center" href="jreview_old.php">Old Journal Review</a></div>
+							<div class="col1"><a class="center" href="posting.php">Postings</a> </div>
+							<div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
                         </div>
                 </div>
 
