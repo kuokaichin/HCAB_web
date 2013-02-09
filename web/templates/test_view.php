@@ -1,3 +1,3 @@
 <div>
-	<a href="google.com">LOL</a>
+	<a href="http://google.com">LOL</a>
 <div>
