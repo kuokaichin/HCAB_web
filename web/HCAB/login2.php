@@ -7,7 +7,7 @@
     $username = mysql_real_escape_string($_POST["email"]);
 
     // prepare SQL
-    $sql = "SELECT * FROM hello WHERE email='$username'";
+    $sql = "SELECT * FROM members WHERE email='$username'";
 
     // execute query
     $result = mysql_query($sql);

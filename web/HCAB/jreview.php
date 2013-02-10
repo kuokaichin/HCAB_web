@@ -25,14 +25,10 @@
                         <ul>
                                 <li><a href="../index.html" title="Home"><w>Home</w></a></li>
                                 <li><a href="../aboutus.html" title="About us"><w>About Us</w><ul>
-                                                <li><a href="../aboutus.html" title="About Us"><ws>Overview</ws></a></li>
-                                                <li><a href="../history.html" title="History"><ws>History</ws></a></li>
-                                                <li><a href="../leader.html" title="Our Leaders"><ws>Our Leaders</ws></a></li>
-                                                <li class="last"><a href="../buddystories.html" title="Buddy 
-Stories"><ws>Buddy
-Stories</ws></a></li>
-                                        </ul>
-                                </li>
+								<li><a href="../aboutus.html" title="About Us"><ws>Overview</ws></a></li>
+								<li><a href="../history.html" title="History"><ws>History</ws></a></li>
+								<li><a href="../leader.html" title="Our Leaders"><ws>Our Leaders</ws></a></li>
+								<li class="last"><a href="../buddystories.html" title="Buddy Stories"><ws>Buddy Stories</ws></a></li></ul></li>
                                 <li><a href="../construction.html" title="Media"><w>Media</w></a></li>
                                 <li><a href="../joinschedule.html" title="Join Us"><w>Join Us</w></a></li>
                                 <li><a href="../contact.html" title="Contact Us"><w>Contact Us</w></a></li>

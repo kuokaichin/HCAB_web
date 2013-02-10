@@ -49,8 +49,7 @@ location.href = url + '?curID=' +  str
 //-->
 </script>
 
-
-
+<?$id = $_SESSION["id"];?>
 <? $i = $_GET['curID']; ?>
 <?$r = mysql_query("SELECT `Fname`, `Lname`, `Phone`, `email` FROM `members` WHERE `id`=$i");?>
 <?$rr = mysql_fetch_array($r);?>
@@ -63,24 +62,31 @@ location.href = url + '?curID=' +  str
 
 <br />
  <div class="tab">
-                <div class="tab">
-                        <div class="row">
-				<? if($i == 36 || $i == 40 || $i == 7 || $i == 3 || $i == 26 || $i == 39 || $i == 80) { ?> 
-				<div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>
-				<? } else { ?>
-				<div class="col1"><a class="center" href="hcabindexlogin.php">HOME</a> </div>
-				<? }?> 
-                                <div class="col1"><a class="center" href="journal.php">Journals</a> </div>
-								<div class="colu1"><a class="center" href="journal_old.php">Old Journals</a></div>
-                                <? if($i == 36 || $i == 40 || $i == 7 || $i == 3 || $i == 26 || $i == 39 || $i == 80 ) { ?>
-                                <div class="col1"><a class="center" href="jreview.php">Journal Review</a></div>
-                                <div class="col1"><a class="center" href="jreview_old.php">Old Journal Review</a></div>
-								<? } ?>
-                                <div class="col1"><a class="center" href="posting.php">Postings</a> </div>
-                                <div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
-                        </div>
-                </div>
-                </div>
+	<div class="tab">
+		<div class="row">
+		<? 
+			if($id == 36 || $id == 40 || $id == 7 || $id == 3 || $id == 26 || $id == 39 || $id == 80)
+			{
+				echo '<div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>';
+			}
+			else {
+				echo '<div class="col1"><a class="center" href="hcabindexlogin.php">HOME</a> </div>';
+			}
+		?>
+			<div class="col1"><a class="center" href="journal.php">Journals</a> </div>
+			<div class="col1"><a class="center" href="journal_old.php">Old Journals</a></div>
+		<? 
+			if($id == 36 || $id == 40 || $id == 7 || $id == 3 || $id == 26 || $id == 39 || $id == 80 ) 
+			{
+				echo '<div class="colu1"><a class="center" href="jreview.php">Journal Review</a></div>';
+				echo '<div class="col1"><a class="center" href="jreview_old.php">Old Journal Review</a></div>';
+			}
+		?>
+			<div class="col1"><a class="center" href="posting.php">Postings</a> </div>
+			<div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
+		</div>
+	</div>
+</div>
 
                 <br />
                 <br />
