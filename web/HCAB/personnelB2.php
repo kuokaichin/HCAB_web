@@ -21,7 +21,7 @@ $_POST["room"] == NULL || $_POST["home"] == NULL)
 
     $id =  $_SESSION["id"];
     // prepare sql to put user into database
-    $sql = "UPDATE  hello SET Concentration = '$conc', Graduation = '$grad', Phone = '$phone', House = '$house', Room = 
+    $sql = "UPDATE  members SET Concentration = '$conc', Graduation = '$grad', Phone = '$phone', House = '$house', Room = 
 '$room', Home = '$home' WHERE id = '$id'";
 
     // execute query

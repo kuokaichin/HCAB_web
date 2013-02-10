@@ -43,7 +43,7 @@
     
 
     // make sure that the user doesn't already have that email with an account
-	$sql = "SELECT * FROM hello WHERE email = '$username'";
+	$sql = "SELECT * FROM members WHERE email = '$username'";
 	$result = mysql_query($sql);
 	$exists = mysql_num_rows($result);
 	if($exists >= 1)
@@ -54,7 +54,7 @@
 
 
     // prepare sql to put user into database
-    $sql = "INSERT INTO hello (email, hash, fname, lname) VALUES('$username', '$hash', '$first', '$last')";
+    $sql = "INSERT INTO members (email, hash, fname, lname) VALUES('$username', '$hash', '$first', '$last')";
       
     // execute query
     $result = mysql_query($sql);
@@ -69,7 +69,7 @@
 	if($_POST["affl"] != 0)
 	{
 		$affl = $_POST["affl"];	
-		$sql = "UPDATE hello SET Volunteer = '$affl' WHERE email = '$username'";
+		$sql = "UPDATE members SET Volunteer = '$affl' WHERE email = '$username'";
 		$result = mysql_query($sql);
 		if ($result == false)
 		{
