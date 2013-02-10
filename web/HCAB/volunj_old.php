@@ -60,7 +60,6 @@ location.href = url + '?curID=' +  str
             <?$result = mysql_query("SELECT `date`, `head`, `copy` FROM `journals_old` WHERE `Author ID`=$i ORDER BY `date` DESC");?>
 
 <br />
- <div class="tab">
 	<div class="tab">
 		<div class="row">
 		<? 

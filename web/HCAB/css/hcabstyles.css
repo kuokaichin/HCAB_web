@@ -478,8 +478,14 @@ a.reg:hover{color:#6699CC; text-decoration:underline;}
 
 .tab
         {
-		margin-left: 220px;
-		width: 600px;
+		margin-left: 200px;
+		width: 700px;
+		overflow:hidden;        	      
+        }
+.tab2
+        {
+		margin-left: 150px;
+		width: 800px;
 		overflow:hidden;        	      
         }
 

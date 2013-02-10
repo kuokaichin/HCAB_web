@@ -61,7 +61,6 @@ location.href = url + '?curID=' +  str
             <?$result = mysql_query("SELECT `date`, `head`, `copy` FROM `journals` WHERE `Author ID`=$i ORDER BY `date` DESC");?>
 
 <br />
- <div class="tab">
 	<div class="tab">
 		<div class="row">
 		<? 
@@ -86,7 +85,7 @@ location.href = url + '?curID=' +  str
 			<div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
 		</div>
 	</div>
-</div>
+
 
                 <br />
                 <br />
