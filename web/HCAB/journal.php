@@ -44,7 +44,7 @@ Stories</ws></a></li>
 
 
             <?$i = $_SESSION["id"];?>
-            <?$result = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=$i ORDER BY `date` 
+            <?$result = mysql_query("SELECT `date`, `head`, `copy` FROM `journals` WHERE `Author ID`=$i ORDER BY `date` 
 DESC");?>
 
 <br />

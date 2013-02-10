@@ -53,7 +53,7 @@ location.href = url + '?curID=' +  str
 //-->
 </script>  
 
-	        <?$result = mysql_query("SELECT `id`, `jposts`, `Fname`, `Lname` FROM `hello` WHERE `Volunteer`<2");?>
+	        <?$result = mysql_query("SELECT `id`, `jposts_old`, `Fname`, `Lname` FROM `members` WHERE `Volunteer`<2");?>
 		<br />
                 <div class="tab">
                         <div class="row">
@@ -75,8 +75,8 @@ location.href = url + '?curID=' +  str
 <? $color[2] = purple; ?>
 <? $color[3] = yellow; ?>
 <? $color[4] = black; ?> 
-                <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=3");?>
-		<? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`= 50 ORDER BY `date` 
+                <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals_old` WHERE `Author ID`=3");?>
+		<? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals_old` WHERE `Author ID`= 50 ORDER BY `date` 
 DESC");?>
                                         <? $r = mysql_fetch_array($pt)?>
 		<div class="journalList">
@@ -96,20 +96,20 @@ KEY: Ryan<<? echo $color[1]?>>- Green</<? echo $color[1]?>>,
 				<? $c++ ?>
 				<? if($c > 4){ ?>
 				<? $c = 0; } ?>
-<a href="#null" onclick="passData2('volunj.php','<? echo $num[$i] ?>');return false">
+<a href="#null" onclick="passData2('volunj_old.php','<? echo $num[$i] ?>');return false">
 <<? echo $color[$c]?>>				<? echo $row["Lname"]?> , <? echo $row["Fname"]?>
 </<? echo $color[$c]?>></a>
 
 				
-				<? $posts = $row["jposts"]; ?>
+				<? $posts = $row["jposts_old"]; ?>
 				<br />
 				<div class="journalList2"> 
 				Number of Journal Posts: <?= $posts?>
 					<? if($posts >= 1) { ?>
 					<?//Useless crap from the fix last time?>
-		                        <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=$current");?>
+		                        <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals_old` WHERE `Author ID`=$current");?>
 					<? /*Actually useful stuff*/ ?>
-      <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`= $current ORDER BY `date` ASC");?>
+      <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals_old` WHERE `Author ID`= $current ORDER BY `date` ASC");?>
 
                                         <?while ($r = mysql_fetch_array($pt)):?>
 		                                 <? $dt = date("l, F j, Y, g:i A", strtotime($r["date"]));?>

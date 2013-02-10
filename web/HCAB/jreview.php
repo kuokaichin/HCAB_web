@@ -53,7 +53,7 @@ location.href = url + '?curID=' +  str
 //-->
 </script>  
 
-	        <?$result = mysql_query("SELECT `id`, `jposts`, `Fname`, `Lname` FROM `hello` WHERE `Volunteer`<2");?>
+	        <?$result = mysql_query("SELECT `id`, `jposts`, `Fname`, `Lname` FROM `members` WHERE `Volunteer`<2");?>
 		<br />
                 <div class="tab">
 					<div class="row">
@@ -76,7 +76,7 @@ location.href = url + '?curID=' +  str
 <? $color[3] = yellow; ?>
 <? $color[4] = black; ?> 
                 <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=3");?>
-		<? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`= 50 ORDER BY `date` 
+		<? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals` WHERE `Author ID`= 50 ORDER BY `date` 
 DESC");?>
                                         <? $r = mysql_fetch_array($pt)?>
 		<div class="journalList">
