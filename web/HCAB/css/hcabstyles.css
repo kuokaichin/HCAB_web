@@ -478,14 +478,8 @@ a.reg:hover{color:#6699CC; text-decoration:underline;}
 
 .tab
         {
-		margin-left: 200px;
-		width: 700px;
-		overflow:hidden;        	      
-        }
-.tab2
-        {
 		margin-left: 150px;
-		width: 800px;
+		width: 1200px;
 		overflow:hidden;        	      
         }
 
@@ -553,8 +547,8 @@ br.list
 		float:left;
 		padding: 6px 3px 2px 3px;
                 color:#663300;
-		width:90%; 
-		min-width:1020px;
+		width:81%; 
+		min-width:1340px;
          
         }
 

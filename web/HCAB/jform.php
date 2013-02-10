@@ -19,7 +19,7 @@
     </head>
         <body class="no-js">
             <header>
-                <img src="images/header2.png"alt="Top">
+                <img class="size" src="images/logo-horiz2wblue.png" width="1359" height="214"/>
             </header>
 
                 <nav id="topNav">
@@ -43,16 +43,30 @@ Stories</ws></a></li>
                 <script src="../nav/js/jquery.js"></script>
                 <script src="../nav/js/modernizr.js"></script>
 
+	            <?$i = $_SESSION["id"];?>
                 <br />
+
+   
                 <div class="tab">
                         <div class="row">
+				<? if($i == 36 || $i == 40 || $i == 7 || $i == 3 || $i == 26 || $i == 39 || $i == 80) { ?> 
+				<div class="col1"><a class="center" href="dirindexlogin.php">HOME</a> </div>
+				<? } else { ?>
 				<div class="col1"><a class="center" href="hcabindexlogin.php">HOME</a> </div>
+				<? }?> 
                                 <div class="colu1"><a class="center" href="journal.php">Journals</a> </div>
+								<div class="col1"><a class="center" href="journal_old.php">Old Journals</a></div>
+                                <? if($i == 36 || $i == 40 || $i == 7 || $i == 3 || $i == 26 || $i == 39 || $i == 80 ) { ?>
+                                <div class="col1"><a class="center" href="jreview.php">Journal Review</a></div>
+                                <div class="col1"><a class="center" href="jreview_old.php">Old Journal Review</a></div>
+								<? } ?>
                                 <div class="col1"><a class="center" href="posting.php">Postings</a> </div>
                                 <div class="col2"><a class="center" href="scheduleS.php">Scheduling</a> </div>
                         </div>
                 </div>
 
+				
+				
 <br />        <br /> 
         <form action="jform2.php" method="post">
             <div class="jform">Entry Title:</div>

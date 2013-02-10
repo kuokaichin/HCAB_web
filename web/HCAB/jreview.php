@@ -18,7 +18,7 @@
     </head>
         <body class="no-js">
             <header>
-                <img src="images/header2.png"alt="Top">
+                <img class="size" src="images/logo-horiz2wblue.png" width="1359" height="214"/>
             </header>
 
                 <nav id="topNav">
@@ -103,9 +103,9 @@ KEY: Ryan<<? echo $color[1]?>>- Green</<? echo $color[1]?>>,
 				Number of Journal Posts: <?= $posts?>
 					<? if($posts >= 1) { ?>
 					<?//Useless crap from the fix last time?>
-		                        <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`=$current");?>
+		                        <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals` WHERE `Author ID`=$current");?>
 					<? /*Actually useful stuff*/ ?>
-      <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `jform` WHERE `Author ID`= $current ORDER BY `date` ASC");?>
+      <? $pt = mysql_query("SELECT `date`, `head`, `copy` FROM `journals` WHERE `Author ID`= $current ORDER BY `date` ASC");?>
 
                                         <?while ($r = mysql_fetch_array($pt)):?>
 		                                 <? $dt = date("l, F j, Y, g:i A", strtotime($r["date"]));?>

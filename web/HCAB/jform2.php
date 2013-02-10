@@ -16,7 +16,7 @@
     $id = $_SESSION["id"];
     
     // prepare sql to put user into database
-    $sql = "INSERT INTO `jform`(`Author ID`, `head`, `copy`) VALUES ('$id', '$title', '$post')";
+    $sql = "INSERT INTO `journals`(`Author ID`, `head`, `copy`) VALUES ('$id', '$title', '$post')";
 
 
     // execute query
@@ -26,7 +26,7 @@
     if ($result == true)
     {
         // prepare SQL
-    $sql = "SELECT * FROM hello WHERE id='$id'";
+    $sql = "SELECT * FROM members WHERE id='$id'";
     
     // execute query
     $result = mysql_query($sql);
@@ -39,7 +39,7 @@
         $posts = $row[3];
         $posts++;
         
-        $sql = "UPDATE `hello` SET `jposts`=$posts WHERE id=$id";
+        $sql = "UPDATE `members` SET `jposts`=$posts WHERE id=$id";
         $result=mysql_query($sql);
 
             // redirect to portfolio

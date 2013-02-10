@@ -18,7 +18,7 @@
     </head>
         <body class="no-js">
             <header>
-                <img src="images/header2.png"alt="Top">
+                <img class="size" src="images/logo-horiz2wblue.png" width="1359" height="214"/>
             </header>
 
                 <nav id="topNav">
@@ -70,7 +70,7 @@ DESC");?>
 		<br />
 
 		<div class="norm">
-			Start a new journal entry, <a class="reg" href="jform.html">NOW</a> 
+			Start a new journal entry, <a class="reg" href="jform.php">NOW</a> 
 		</div>
 
                 <div class="image">

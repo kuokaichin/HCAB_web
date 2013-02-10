@@ -18,7 +18,7 @@
     </head>
         <body class="no-js">
             <header>
-                <img src="images/websiteheader.png"alt="Top">
+                <img class="size" src="images/logo-horiz2wblue.png" width="1359" height="214"/>
             </header>
 
                 <nav id="topNav">

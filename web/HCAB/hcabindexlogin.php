@@ -18,7 +18,7 @@
     </head>
         <body class="no-js">
             <header>
-                <img src="images/header2.png"alt="Top">
+                <img class="size" src="images/logo-horiz2wblue.png" width="1359" height="214"/>
             </header>
 
                 <nav id="topNav">
@@ -59,7 +59,7 @@ Stories</ws></a></li>
                         <div class="title">
                         Announcements
 				<div align="center">
-					<iframe width="520" height="280" frameborder="0" scrolling=no align="middle"
+					<iframe width="550" height="300" frameborder="0" scrolling=yes align="middle"
 					src="https://docs.google.com/spreadsheet/pub?key=0Aqu7rVnB6SoEdGVta3VaYkd5cFJfQVdjWnFuV04zLWc&single=true&gid=4&output=html"></iframe>
                      	</div   
 			</div>
