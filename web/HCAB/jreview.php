@@ -77,11 +77,9 @@ DESC");?>
                                         <? $r = mysql_fetch_array($pt)?>
 		<div class="journalList">
 <br />
-KEY: Ryan<<? echo $color[1]?>>- Green</<? echo $color[1]?>>,
- Jessica<<? echo $color[2]?>>- Purple</<? echo $color[2]?>>,
- Anita<<? echo $color[3]?>>- Gold</<? echo $color[3]?>>,
- Kuo-Kai<<? echo $color[4]?>>- Black</<? echo $color[4]?>>,
- Michelle<<? echo $color[0]?>>- Red</<? echo $color[0]?>>
+KEY: Kuo-Kai - <<? echo $color[0]?>> Red</<? echo $color[0]?>>,
+ Michelle - <<? echo $color[1]?>> Green</<? echo $color[1]?>>,
+ Cheta- <<? echo $color[2]?>> Purple</<? echo $color[2]?>>
 <br />
 	                <?while ($row = mysql_fetch_array($result)):?>
 				<br /><br />
@@ -90,7 +88,7 @@ KEY: Ryan<<? echo $color[1]?>>- Green</<? echo $color[1]?>>,
 				<? for ($i = 0; $i< 1; $i++){ ?>
 				<? $num[$i] = $current; ?>
 				<? $c++ ?>
-				<? if($c > 4){ ?>
+				<? if($c > 2){ ?>
 				<? $c = 0; } ?>
 <a href="#null" onclick="passData2('volunj.php','<? echo $num[$i] ?>');return false">
 <<? echo $color[$c]?>>				<? echo $row["Lname"]?> , <? echo $row["Fname"]?>
