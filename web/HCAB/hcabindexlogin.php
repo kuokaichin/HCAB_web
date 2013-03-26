@@ -39,7 +39,7 @@ Stories</ws></a></li>
                                 <li><a href="logout.html" title="Login"><w>Leave</w></a></li>
                         </ul>
                 </nav>
-                <script src="../nav/js/jquery.js"></script>
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
                 <script src="../nav/js/modernizr.js"></script>
 
 		<br />	
@@ -56,17 +56,34 @@ Stories</ws></a></li>
 
 		 <div class="image">
                         <img src="images/singleflower.png" alt="forget-me-not" width="143" height="135"/>
-                        <div class="title">
+				<div class="title">
                         Announcements
-				<div align="center">
-					<iframe width="550" height="300" frameborder="0" scrolling=yes align="middle"
-					src="https://docs.google.com/spreadsheet/pub?key=0Aqu7rVnB6SoEdGVta3VaYkd5cFJfQVdjWnFuV04zLWc&single=true&gid=4&output=html"></iframe>
-                     	</div   
-			</div>
+					<div align="center">
+						<iframe width="550" height="350" frameborder="0" scrolling=yes align="middle"
+						src="https://docs.google.com/spreadsheet/pub?key=0Aqu7rVnB6SoEdGVta3VaYkd5cFJfQVdjWnFuV04zLWc&single=true&gid=4&output=html"></iframe>
+					</div>
                 </div>
-		</br></br></br></br></br></br></br></br></br></br></br>
+		</div>
+		</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
 
+		<div class="image">
+				<img src="images/singleflower.png" alt="forget-me-not" width="143" height="135"/>
+				<div class="title">
+				Absence Form
+				</div>
+		</div>
+        
+
+		<div class="aindent">
+                        <br />
+                        <br />
+                        <br />
+			If you are unable to make one of our events or visits, you must fill out this <a class="reg" href="https://docs.google.com/a/college.harvard.edu/spreadsheet/viewform?formkey=dE83Wi03YnFTQXR1NVpVbEV5cjNCY1E6MQ#gid=0">absence form</a>
+			, which will ask you for several things including how you intend to make up the event. Please keep in mind that all visits must be made up
+			and you are allowed to skip one speaker event per semester barring unavoidable conflicts such as class!
+                </div>
+ 
 
 
                  <div class="image">

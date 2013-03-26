@@ -273,6 +273,14 @@ img.floatRight
 		font-family:"Gill Sans",Gill Sans MT, sans-serif;
 		line-height:150%;
 	}
+	
+	.flower
+	{
+		font-weight:500;
+		font-size:40px;
+		font-family:"Gill Sans",Gill Sans MT, sans-serif;
+		line-height:150%;
+	}
 
 /*Use on leader page.*/
 sm
